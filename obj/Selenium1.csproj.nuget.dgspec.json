@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\SELENIUM_PRACTICE\\Selenium1\\Selenium1.csproj": {}
+  },
+  "projects": {
+    "d:\\SELENIUM_PRACTICE\\Selenium1\\Selenium1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\SELENIUM_PRACTICE\\Selenium1\\Selenium1.csproj",
+        "projectName": "Selenium1",
+        "projectPath": "d:\\SELENIUM_PRACTICE\\Selenium1\\Selenium1.csproj",
+        "packagesPath": "C:\\Users\\MILAN\\.nuget\\packages\\",
+        "outputPath": "d:\\SELENIUM_PRACTICE\\Selenium1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MILAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[91.0.4472.10100, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
